@@ -40,7 +40,7 @@ regions = vector of regions you
 For example: The following code will get all the data from 2017, 2019, 2021 and 2023 in both the St. Thomas/John and St. Croix regions and set it to the value 'USVI'
 
 ```{r eval=FALSE}
-USVI <- getRvcData(years = 2017:2023, regions =  c("STTSTJ", "STX"))
+USVI <- getRvcData(years = 2017:2025, regions =  c("STTSTJ", "STX"))
 ```
 
 Now explore a few of the basic functions to see what the function outputs.
@@ -69,6 +69,7 @@ hints:
 ```{css echo=FALSE}
 .bordered{
   border-style: solid;
+  width: 50%;
 }
 ```
 
